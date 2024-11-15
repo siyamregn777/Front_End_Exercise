@@ -1,0 +1,131 @@
+body {
+    margin:0 ;
+    padding: 0;
+    background-image: url('./images/baby-8061294_640.jpg');}
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #e6e5bb;
+    border-radius: 18px;
+    box-shadow: 0 4px 6px 10px rgba(1, 139, 1, 0.1);
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: #084615;
+    text-shadow: #e9f1f1;
+  }
+  h1:hover{
+    color: #1a2bc4;
+  }
+  h2{
+    background-color: #0c0f1d;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5px;
+    
+  }
+  h2:hover{
+    background-color: #077e0d;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #18293b;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .user-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-list button {
+    margin-left: 10px;
+    background-color: #0c6426;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .user-list button:hover {
+    background-color: #1d0406;
+  }
+  
+  .name-box {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px; 
+    width: fit-content; 
+    font-family:initial;
+    
+  }
+  
+  .green-bg {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px 0 0 5px; 
+  }
+  .green-bg:hover{
+    background-color: #e9f1f1;
+    color: #13090a;
+  }
+  .white-bg {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 0 5px 5px 0;
+  }
+  .white-bg:hover{
+    background-color: darkgreen;
+    color: #ddd;
+    
+  }
